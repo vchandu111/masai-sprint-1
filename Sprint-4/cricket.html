@@ -17,20 +17,148 @@
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-3">
-                  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-                    <a class="nav-link" id="v-pills-series-tab" data-toggle="pill" href="#v-pills-series" role="tab" aria-controls="v-pills-series" aria-selected="false">Browse Series</a>
-                    <a class="nav-link" id="v-pills-team-tab" data-toggle="pill" href="#v-pills-team" role="tab" aria-controls="v-pills-team" aria-selected="false">Browse Team</a>
-                    <a class="nav-link" id="v-pills-player-tab" data-toggle="pill" href="#v-pills-player" role="tab" aria-controls="v-pills-player" aria-selected="false">Browse Player</a>
-                    <a class="nav-link" id="v-pills-men-tab" data-toggle="pill" href="#v-pills-men" role="tab" aria-controls="v-pills-men" aria-selected="false">ICC RANKINGS MEN</a>
-                    <a class="nav-link" id="v-pills-women-tab" data-toggle="pill" href="#v-pills-women" role="tab" aria-controls="v-pills-women" aria-selected="false">ICC RANKINGS WOMEN</a>
+                <div class="col-2" style="background-color:lightblue;height: 2000px;">
+                  <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active font-weight-bold" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                    <a class="nav-link" id="v-pills-series-tab font-weight-bold" data-toggle="pill" href="#v-pills-series" role="tab" aria-controls="v-pills-series" aria-selected="false">Browse Series</a>
+                    <a class="nav-link" id="v-pills-team-tab font-weight-bold" data-toggle="pill" href="#v-pills-team" role="tab" aria-controls="v-pills-team" aria-selected="false">Browse Team</a>
+                    <a class="nav-link" id="v-pills-player-tab font-weight-bold" data-toggle="pill" href="#v-pills-player" role="tab" aria-controls="v-pills-player" aria-selected="false">Browse Player</a>
+                    <a class="nav-link" id="v-pills-men-tab font-weight-bold" data-toggle="pill" href="#v-pills-men" role="tab" aria-controls="v-pills-men" aria-selected="false">ICC RANKINGS MEN</a>
 
                   </div>
                 </div>
-                <div class="col-9">
+                <div class="col-9 ">
                   <div class="tab-content" id="v-pills-tabContent">
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="c2.jpg" class="d-block w-100 img-fluid" style="height: 400px">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="c1.jpg" class="d-block w-100 img-fluid"style="height: 400px" >
+                              </div>
+                              <div class="carousel-item">
+                                <img src="c3.jpg" class="d-block w-100 img-fluid" style="height: 400px">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                          <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                              <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">News</a>
+                              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Trending Videos</a>
+                            </div>
+                          </nav>
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="card mb-3">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="irfan.jpg" class="card-img img-fluid " style="height: 180px">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h4 class="card-text">Everybody is looking forward to have the IPL this year, says Irfan Pathan</h4>
+                                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="moen.jpg" class="card-img img-fluid " style="height: 180px">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h4 class="card-text">Moeen Ali returns as England name eight uncapped players in Test training group</h4>
+                                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="hitman.jpg" class="card-img img-fluid " style="height: 180px">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h4 class="card-text">Pakistan bowler names Rohit Sharma on his dream hat-trick list, excludes Virat Kohli </h4>
+                                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="csknews.jpg" class="card-img img-fluid " style="height: 180px">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h4 class="card-text">Chennai Super Kings suspend team doctor over tweet mocking the Indian government</h4>
+                                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="rishab.jpg" class="card-img img-fluid " style="height: 180px">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h4 class="card-text">Rishabh Pant has to be properly groomed by India: Syed Kirmani</h4>
+                                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="chahalnews.jpg" class="card-img img-fluid " style="height: 180px">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h4 class="card-text">I have never met Yuzvendra Chahal': Danielle Wyatt</h4>
+                                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3">
+                                    <div class="row no-gutters">
+                                      <div class="col-md-4">
+                                        <img src="ravi.jpg" class="card-img img-fluid " style="height: 180px">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                          <h4 class="card-text">Virat Kohli-Ravi Shastri: Indian cricket team reaping the rewards of a relationship that began in 2011/12</h4>
+                                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+                          </div>
                         
                     </div>
                     <div class="tab-pane fade" id="v-pills-series" role="tabpanel" aria-labelledby="v-pills-series-tab">
@@ -47,19 +175,19 @@
                             <div class="tab-pane fade show active" id="pills-inter" role="tabpanel" aria-labelledby="pills-inter-tab">
                                 <div class="row">
                                     <div class="col text-center">
-                                      <div class="font-weight-bold text-center text-success">FRI,Jul 03 2020 </div>
+                                      <div class="font-weight-bold text-center text-success m-2">FRI,Jul 03 2020 </div>
                                       <div>1st T20I. Chester-le-street</div>
                                       <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
                                       <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
                                     </div>
                                     <div class="col text-center">
-                                        <div class="font-weight-bold text-center text-success">SAT,Jul 04 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">SAT,Jul 04 2020 </div>
                                         <div>1st ODI. AMESTELVEEN</div>
                                         <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
                                         <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
                                     </div>
                                     <div class="col text-center">
-                                        <div class="font-weight-bold text-center text-success">SUN,Jul 05 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 05 2020 </div>
                                         <div>1st T20I. MANCHESTER</div>
                                         <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
                                         <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
@@ -68,19 +196,187 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col text-center">
-                                      <div class="font-weight-bold text-center text-success">MON,Jul 06 2020 </div>
+                                      <div class="font-weight-bold text-center text-success m-2">MON,Jul 06 2020 </div>
                                       <div>1st T20I. Chester-le-street</div>
                                       <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
                                       <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
                                     </div>
                                     <div class="col text-center">
-                                        <div class="font-weight-bold text-center text-success">TUE,Jul 07 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">TUE,Jul 07 2020 </div>
                                         <div>1st ODI. AMESTELVEEN</div>
                                         <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
                                         <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
                                     </div>
                                     <div class="col text-center">
-                                        <div class="font-weight-bold text-center text-success">WED,Jul 08 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">WED,Jul 08 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
+                                        <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">FRI,Jul 03 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
+                                      <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SAT,Jul 04 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
+                                        <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 05 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
+                                        <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">MON,Jul 06 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
+                                      <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">TUE,Jul 07 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
+                                        <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">WED,Jul 08 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
+                                        <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">FRI,Jul 03 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
+                                      <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SAT,Jul 04 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
+                                        <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 05 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
+                                        <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">MON,Jul 06 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
+                                      <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">TUE,Jul 07 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
+                                        <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">WED,Jul 08 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
+                                        <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">FRI,Jul 03 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
+                                      <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SAT,Jul 04 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
+                                        <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 05 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
+                                        <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">MON,Jul 06 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
+                                      <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">TUE,Jul 07 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
+                                        <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">WED,Jul 08 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
+                                        <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">FRI,Jul 03 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
+                                      <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SAT,Jul 04 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
+                                        <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 05 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
+                                        <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">MON,Jul 06 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
+                                      <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">TUE,Jul 07 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
+                                        <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">WED,Jul 08 2020 </div>
                                         <div>1st T20I. MANCHESTER</div>
                                         <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
                                         <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
@@ -89,41 +385,42 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col-4 text-center">
-                                      <div class="font-weight-bold text-center text-success">THU,Jul 09 2020 </div>
+                                      <div class="font-weight-bold text-center text-success m-2">THU,Jul 09 2020 </div>
                                       <div>1st T20I. Chester-le-street</div>
                                       <p><img src="eng.jpg" class="img-fluid" style="height:25px">  England</p>
                                       <p><img src="aus.png"  class="img-fluid" style="height:20px">  Australia</p>
                                     </div>
                                     <div class="col-4 text-center">
-                                        <div class="font-weight-bold text-center text-success">FRI,Jul 10 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">FRI,Jul 10 2020 </div>
                                         <div>1st ODI. AMESTELVEEN</div>
                                         <p><img src="ind.png" class="img-fluid" style="height:25px">  INDIA</p>
                                         <p><img src="pak.jpg"  class="img-fluid" style="height:25px">  PAKISTAN</p>
                                     </div>
                                     <div class="col-4 text-center">
-                                        <div class="font-weight-bold text-center text-success">SUN,Jul 11 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 11 2020 </div>
                                         <div>1st T20I. MANCHESTER</div>
                                         <p><img src="eng.jpg" class="img-fluid" style="height:20px">  England</p>
                                         <p><img src="wi.png"  class="img-fluid ml-2" style="height:20px">  WEST INDIES</p>
                                     </div>
                                 </div>
                             </div>
+                            <hr>
                             <div class="tab-pane fade" id="pills-t20" role="tabpanel" aria-labelledby="pills-t20-tab">
                                 <div class="row">
                                     <div class="col-4 text-center">
-                                      <div class="font-weight-bold text-center text-success">FRI,Jul 03 2020 </div>
+                                      <div class="font-weight-bold text-center text-success m-2">FRI,Jul 03 2020 </div>
                                       <div>1st T20I. Chester-le-street</div>
                                       <p><img src="csk.jpg" class="img-fluid" style="height:25px">  CSK</p>
                                       <p><img src="mi.jpg"  class="img-fluid" style="height:20px">  MI</p>
                                     </div>
                                     <div class="col-4 text-center">
-                                        <div class="font-weight-bold text-center text-success">SAT,Jul 04 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">SAT,Jul 04 2020 </div>
                                         <div>1st ODI. AMESTELVEEN</div>
                                         <p><img src="rcb.jpg" class="img-fluid" style="height:25px">  RCB</p>
                                         <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
                                     </div>
                                     <div class="col-4 text-center">
-                                        <div class="font-weight-bold text-center text-success">SUN,Jul 05 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 05 2020 </div>
                                         <div>1st T20I. MANCHESTER</div>
                                         <p><img src="csk.jpg" class="img-fluid" style="height:20px">  CSK</p>
                                         <p><img src="srh.jpg"  class="img-fluid ml-2" style="height:20px">  SRH</p>
@@ -132,19 +429,145 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col text-center">
-                                      <div class="font-weight-bold text-center text-success">MON,Jul 06 2020 </div>
+                                      <div class="font-weight-bold text-center text-success m-2">MON,Jul 06 2020 </div>
                                       <div>1st T20I. Chester-le-street</div>
                                       <p><img src="csk.jpg" class="img-fluid" style="height:25px">  CSK</p>
                                       <p><img src="rcb.jpg"  class="img-fluid" style="height:20px">  RCB</p>
                                     </div>
                                     <div class="col text-center">
-                                        <div class="font-weight-bold text-center text-success">TUE,Jul 07 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">TUE,Jul 07 2020 </div>
                                         <div>1st ODI. AMESTELVEEN</div>
                                         <p><img src="rcb.jpg" class="img-fluid" style="height:25px"> RCB</p>
                                         <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
                                     </div>
                                     <div class="col text-center">
-                                        <div class="font-weight-bold text-center text-success">WED,Jul 08 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">WED,Jul 08 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="kkr.png" class="img-fluid" style="height:20px">  KKR</p>
+                                        <p><img src="srh.jpg"  class="img-fluid ml-2" style="height:20px">  SRH</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-4 text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">FRI,Jul 03 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="csk.jpg" class="img-fluid" style="height:25px">  CSK</p>
+                                      <p><img src="mi.jpg"  class="img-fluid" style="height:20px">  MI</p>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SAT,Jul 04 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:25px">  RCB</p>
+                                        <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 05 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="csk.jpg" class="img-fluid" style="height:20px">  CSK</p>
+                                        <p><img src="srh.jpg"  class="img-fluid ml-2" style="height:20px">  SRH</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">MON,Jul 06 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="csk.jpg" class="img-fluid" style="height:25px">  CSK</p>
+                                      <p><img src="rcb.jpg"  class="img-fluid" style="height:20px">  RCB</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">TUE,Jul 07 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:25px"> RCB</p>
+                                        <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">WED,Jul 08 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="kkr.png" class="img-fluid" style="height:20px">  KKR</p>
+                                        <p><img src="srh.jpg"  class="img-fluid ml-2" style="height:20px">  SRH</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-4 text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">FRI,Jul 03 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="csk.jpg" class="img-fluid" style="height:25px">  CSK</p>
+                                      <p><img src="mi.jpg"  class="img-fluid" style="height:20px">  MI</p>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SAT,Jul 04 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:25px">  RCB</p>
+                                        <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 05 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="csk.jpg" class="img-fluid" style="height:20px">  CSK</p>
+                                        <p><img src="srh.jpg"  class="img-fluid ml-2" style="height:20px">  SRH</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">MON,Jul 06 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="csk.jpg" class="img-fluid" style="height:25px">  CSK</p>
+                                      <p><img src="rcb.jpg"  class="img-fluid" style="height:20px">  RCB</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">TUE,Jul 07 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:25px"> RCB</p>
+                                        <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">WED,Jul 08 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="kkr.png" class="img-fluid" style="height:20px">  KKR</p>
+                                        <p><img src="srh.jpg"  class="img-fluid ml-2" style="height:20px">  SRH</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-4 text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">FRI,Jul 03 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="csk.jpg" class="img-fluid" style="height:25px">  CSK</p>
+                                      <p><img src="mi.jpg"  class="img-fluid" style="height:20px">  MI</p>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SAT,Jul 04 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:25px">  RCB</p>
+                                        <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 05 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="csk.jpg" class="img-fluid" style="height:20px">  CSK</p>
+                                        <p><img src="srh.jpg"  class="img-fluid ml-2" style="height:20px">  SRH</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">MON,Jul 06 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="csk.jpg" class="img-fluid" style="height:25px">  CSK</p>
+                                      <p><img src="rcb.jpg"  class="img-fluid" style="height:20px">  RCB</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">TUE,Jul 07 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:25px"> RCB</p>
+                                        <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">WED,Jul 08 2020 </div>
                                         <div>1st T20I. MANCHESTER</div>
                                         <p><img src="kkr.png" class="img-fluid" style="height:20px">  KKR</p>
                                         <p><img src="srh.jpg"  class="img-fluid ml-2" style="height:20px">  SRH</p>
@@ -153,23 +576,87 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col text-center">
-                                      <div class="font-weight-bold text-center text-success">THU,Jul 09 2020 </div>
+                                      <div class="font-weight-bold text-center text-success m-2">THU,Jul 09 2020 </div>
                                       <div>1st T20I. Chester-le-street</div>
                                       <p><img src="kkr.png" class="img-fluid" style="height:25px">  KKR</p>
                                       <p><img src="rcb.jpg"  class="img-fluid" style="height:20px">  RCB</p>
                                     </div>
                                     <div class="col text-center">
-                                        <div class="font-weight-bold text-center text-success">FRI,Jul 10 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">FRI,Jul 10 2020 </div>
                                         <div>1st ODI. AMESTELVEEN</div>
                                         <p><img src="rcb.jpg" class="img-fluid" style="height:25px">  RCB</p>
                                         <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
                                     </div>
                                     <div class="col text-center">
-                                        <div class="font-weight-bold text-center text-success">SUN,Jul 11 2020 </div>
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 11 2020 </div>
                                         <div>1st T20I. MANCHESTER</div>
                                         <p><img src="rcb.jpg" class="img-fluid" style="height:20px">  RCB</p>
                                         <p><img src="mi.jpg"  class="img-fluid ml-2" style="height:20px">  MI</p>
                                     </div>
+                                    <hr>
+                                </div>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">THU,Jul 09 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="kkr.png" class="img-fluid" style="height:25px">  KKR</p>
+                                      <p><img src="rcb.jpg"  class="img-fluid" style="height:20px">  RCB</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">FRI,Jul 10 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:25px">  RCB</p>
+                                        <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 11 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:20px">  RCB</p>
+                                        <p><img src="mi.jpg"  class="img-fluid ml-2" style="height:20px">  MI</p>
+                                    </div>
+                                  <hr>  
+                                </div>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">THU,Jul 09 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="kkr.png" class="img-fluid" style="height:25px">  KKR</p>
+                                      <p><img src="rcb.jpg"  class="img-fluid" style="height:20px">  RCB</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">FRI,Jul 10 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:25px">  RCB</p>
+                                        <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 11 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:20px">  RCB</p>
+                                        <p><img src="mi.jpg"  class="img-fluid ml-2" style="height:20px">  MI</p>
+                                    </div>
+                                   <hr> 
+                                </div>
+                                <div class="row">
+                                    <div class="col text-center">
+                                      <div class="font-weight-bold text-center text-success m-2">THU,Jul 09 2020 </div>
+                                      <div>1st T20I. Chester-le-street</div>
+                                      <p><img src="kkr.png" class="img-fluid" style="height:25px">  KKR</p>
+                                      <p><img src="rcb.jpg"  class="img-fluid" style="height:20px">  RCB</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">FRI,Jul 10 2020 </div>
+                                        <div>1st ODI. AMESTELVEEN</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:25px">  RCB</p>
+                                        <p><img src="srh.jpg"  class="img-fluid" style="height:25px">  SRH</p>
+                                    </div>
+                                    <div class="col text-center">
+                                        <div class="font-weight-bold text-center text-success m-2">SUN,Jul 11 2020 </div>
+                                        <div>1st T20I. MANCHESTER</div>
+                                        <p><img src="rcb.jpg" class="img-fluid" style="height:20px">  RCB</p>
+                                        <p><img src="mi.jpg"  class="img-fluid ml-2" style="height:20px">  MI</p>
+                                    </div>
+                                    
                                 </div>
                             </div>
                           </div>
@@ -225,8 +712,20 @@
                                       </div>
                                       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                         <div class="card-body">
-                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                        </div>
+                                            <ul class="list-group">
+                                                <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="warner.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>DAVID WARNER</li>
+                                                <li class="list-group-item list-group-item-secondary"><span class="mr-2"><img src="finch.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>AARON FINCH</li>
+                                                <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="max.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>GLENN MAXWELL</li>
+                                                <li class="list-group-item list-group-item-danger"><span class="mr-2"><img src="steve.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>STEVE SMITH</li>
+                                                <li class="list-group-item list-group-item-warning"><span class="mr-2"><img src="pat.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>PAT CUMMINS</li>
+                                                <li class="list-group-item list-group-item-info"><span class="mr-2"><img src="zam.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>ADAM ZAMPA</li>
+                                                <li class="list-group-item list-group-item-light"><span class="mr-2"><img src="kan.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>KANE RICHARDSON</li>
+                                                <li class="list-group-item list-group-item-dark"><span class="mr-2"><img src="nat.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>NATHAN LYON</li>
+                                                <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="natc.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>NATHAN COUNTERNILE</li>
+                                                <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="jas.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>JASON BEHERENDROFF</li>
+                                                <li class="list-group-item list-group-item-warning"><span class="mr-2"><img src="starc.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>MITCHELL STARC</li>
+
+                                              </ul>                                        </div>
                                       </div>
                                     </div>
                                     <div class="card">
@@ -239,8 +738,21 @@
                                       </div>
                                       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                         <div class="card-body">
-                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                        </div>
+                                            <ul class="list-group">
+                                                <li class="list-group-item">FAKHAR JAMAN</li>
+                                                <li class="list-group-item list-group-item-primary">IMAM-UL-HAQ</li>
+                                                <li class="list-group-item list-group-item-secondary">BABAR AZAM</li>
+                                                <li class="list-group-item list-group-item-success">ASIF ALI</li>
+                                                <li class="list-group-item list-group-item-danger">HARIS SOHAIL</li>
+                                                <li class="list-group-item list-group-item-warning">SHOAIB MAILK</li>
+                                                <li class="list-group-item list-group-item-info">SARFRAZ AHMED</li>
+                                                <li class="list-group-item list-group-item-light">WAHAB RIAZ</li>
+                                                <li class="list-group-item list-group-item-dark">HASAN ALI</li>
+                                                <li class="list-group-item list-group-item-light">MOHAMMED HASNAIN</li>
+                                                <li class="list-group-item list-group-item-success">MOHAMMED AMIR</li>
+                                                <li class="list-group-item list-group-item-warning">SHAHEEN AFRIDI</li>
+
+                                              </ul>                                        </div>
                                       </div>
                                     </div>
                                   </div>
@@ -255,8 +767,21 @@
                                 
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                       <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                      </div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">DARREN BRAVO</li>
+                                            <li class="list-group-item list-group-item-primary">CHRIS GAYLE</li>
+                                            <li class="list-group-item list-group-item-secondary">EVIN LEWIS</li>
+                                            <li class="list-group-item list-group-item-success">FABIAN ALLEN</li>
+                                            <li class="list-group-item list-group-item-danger">JASON HOLDER</li>
+                                            <li class="list-group-item list-group-item-warning">ANDRE RUSSELL</li>
+                                            <li class="list-group-item list-group-item-info">CARLOS BRATHWAITE</li>
+                                            <li class="list-group-item list-group-item-light">NICHOLAS POORAN</li>
+                                            <li class="list-group-item list-group-item-dark">SHELDON COTTRELL</li>
+                                            <li class="list-group-item list-group-item-light">SHANNON GABRIEL</li>
+                                            <li class="list-group-item list-group-item-success">KEMAR ROACH</li>
+                                            <li class="list-group-item list-group-item-warning">OSHANE THOMAS</li>
+
+                                          </ul>                                        </div>
                                     </div>
                                   </div>
                                   <div class="card">
@@ -270,8 +795,21 @@
                                 
                                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                                       <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                      </div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">LAHIRU THIRIMANNE</li>
+                                            <li class="list-group-item list-group-item-primary">DIMUTH KARUNARATNE</li>
+                                            <li class="list-group-item list-group-item-secondary">KUSAL MENDIS</li>
+                                            <li class="list-group-item list-group-item-success">ANGELO MATHEWS</li>
+                                            <li class="list-group-item list-group-item-danger">THISARA PERERA</li>
+                                            <li class="list-group-item list-group-item-warning">JEEVAN MENDIS</li>
+                                            <li class="list-group-item list-group-item-info">KUSAL PERERA</li>
+                                            <li class="list-group-item list-group-item-light">SURANGA LAKMAL</li>
+                                            <li class="list-group-item list-group-item-dark">LASITH MALINGA</li>
+                                            <li class="list-group-item list-group-item-light">NUWAN PRADEEP</li>
+                                            <li class="list-group-item list-group-item-success">ISURU UDANA</li>
+                                            <li class="list-group-item list-group-item-warning">DE SILVA</li>
+
+                                          </ul>                                        </div>
                                     </div>
                                   </div>
                                   <div class="card">
@@ -285,8 +823,21 @@
                                 
                                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                                       <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                      </div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">MARTIN GUPTILL</li>
+                                            <li class="list-group-item list-group-item-primary">ROSS TAYLOR</li>
+                                            <li class="list-group-item list-group-item-secondary">KANE WILLIAMSON</li>
+                                            <li class="list-group-item list-group-item-success">HENRY NICHOLAS</li>
+                                            <li class="list-group-item list-group-item-danger">JAMES NEESHAM</li>
+                                            <li class="list-group-item list-group-item-warning">COLIN MUNRO</li>
+                                            <li class="list-group-item list-group-item-info">MITCHELL SANTNER</li>
+                                            <li class="list-group-item list-group-item-light">TOM LATHAM</li>
+                                            <li class="list-group-item list-group-item-dark">TOM BLUNDELL</li>
+                                            <li class="list-group-item list-group-item-light">TRENT BOULT</li>
+                                            <li class="list-group-item list-group-item-success">TIM SOUTHEE</li>
+                                            <li class="list-group-item list-group-item-warning">ISH SODHI</li>
+
+                                          </ul>                                        </div>
                                     </div>
                                   </div>
                                   <div class="card">
@@ -300,12 +851,190 @@
                                 
                                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
                                       <div class="card-body">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                      </div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">FAF DU PLESIS</li>
+                                            <li class="list-group-item list-group-item-primary">DAVID MILLER</li>
+                                            <li class="list-group-item list-group-item-secondary">RASSIE VAN DER DUSSEN</li>
+                                            <li class="list-group-item list-group-item-success">JP DUMINY</li>
+                                            <li class="list-group-item list-group-item-danger">CHRIS MORRIS</li>
+                                            <li class="list-group-item list-group-item-warning">QUINTON DE KOCK</li>
+                                            <li class="list-group-item list-group-item-info">IMRAN TAHIR</li>
+                                            <li class="list-group-item list-group-item-light">KAGISO RABADA</li>
+                                            <li class="list-group-item list-group-item-dark">LUNGI NGIDI</li>
+                                            <li class="list-group-item list-group-item-light">BEURSN HENDRICKS</li>
+                                            <li class="list-group-item list-group-item-success">TABRAIZ SHAMSI</li>
+                                            <li class="list-group-item list-group-item-warning">ANDILE PHEHLUKWAYO</li>
+
+                                          </ul>                                        </div>
                                     </div>
                                   </div>
                             </div>
-                            <div class="tab-pane fade" id="pills-domes" role="tabpanel" aria-labelledby="pills-domes-tab">123456</div>
+                            <div class="tab-pane fade" id="pills-domes" role="tabpanel" aria-labelledby="pills-domes-tab">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                      <div class="card-header" id="heading1">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                            <img src="csk.jpg" class="img-fluid" style="height:20px">  Chennai Super Kings
+                                          </button>
+                                        </h2>
+                                      </div>
+                                  
+                                      <div id="collapse1" class="collapse " aria-labelledby="heading1" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">SURESH RAINA</li>
+                                              
+                                                
+                                                <li class="list-group-item list-group-item-primary">MURALI VIJAY</li>
+                                                <li class="list-group-item list-group-item-secondary">MS DHONI</li>
+                                                <li class="list-group-item list-group-item-success">AMBATI RAYADU</li>
+                                                <li class="list-group-item list-group-item-danger">FAF DU PLESIS</li>
+                                                <li class="list-group-item list-group-item-warning">DWAYNE BRAVO</li>
+                                                <li class="list-group-item list-group-item-info">KEDAR JADAV</li>
+                                                <li class="list-group-item list-group-item-light">RAVINDRA JADEJA</li>
+                                                <li class="list-group-item list-group-item-dark">MITCHELL SANTNER</li>
+                                                <li class="list-group-item list-group-item-warning">SAM CURRAN</li>
+                                                <li class="list-group-item list-group-item-info">PIYUSH CHAWLA</li>
+                                              </ul>                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header" id="heading2">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                            <img src="mi.jpg" class="img-fluid" style="height:20px">  Mumbai Indians
+                                          </button>
+                                        </h2>
+                                      </div>
+                                      <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">SACHIN TENDULKAR</li>
+                                              
+                                                
+                                                <li class="list-group-item list-group-item-primary">ROHIT SHARMA</li>
+                                                <li class="list-group-item list-group-item-secondary">SURYAKUMAR YADAV</li>
+                                                <li class="list-group-item list-group-item-success">CHRIS LYNN</li>
+                                                <li class="list-group-item list-group-item-danger">HARDIK PANDYA</li>
+                                                <li class="list-group-item list-group-item-warning">KRUNAL PANDYA</li>
+                                                <li class="list-group-item list-group-item-info">KIERON POLLARD</li>
+                                                <li class="list-group-item list-group-item-light">ANKUL ROY</li>
+                                                <li class="list-group-item list-group-item-dark">JASPRIT BUMRAH</li>
+                                                <li class="list-group-item list-group-item-warning">LASITH MALINGA</li>
+                                                <li class="list-group-item list-group-item-info">RAHUL CHAHAR</li>
+                                              </ul>                                         </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header" id="heading3">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                            <img src="rcb.jpg" class="img-fluid" style="height:20px">  Royal Challengers Banglore                                          </button>
+                                        </h2>
+                                      </div>
+                                      <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">CHRIS GAYLE</li>
+                                              
+                                                
+                                                <li class="list-group-item list-group-item-primary">VIRAT KOHLI</li>
+                                                <li class="list-group-item list-group-item-secondary">AB DEVILLERS</li>
+                                                <li class="list-group-item list-group-item-success">AARON FINCH</li>
+                                                <li class="list-group-item list-group-item-danger">MOEN ALI</li>
+                                                <li class="list-group-item list-group-item-warning">SHIVAN DUBE</li>
+                                                <li class="list-group-item list-group-item-info">PARTIV PATEL</li>
+                                                <li class="list-group-item list-group-item-light">UMESH YADAV</li>
+                                                <li class="list-group-item list-group-item-dark">MOHAMMED SIRAJ</li>
+                                                <li class="list-group-item list-group-item-warning">DALE STEYN</li>
+                                                <li class="list-group-item list-group-item-info">KANE RICHARDSON</li>
+                                              </ul>                                 
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="heading4">
+                                          <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                                <img src="srh.jpg" class="img-fluid" style="height:20px">  Sun Risers Hyderabad
+                                            </button>
+                                          </h2>
+                                        </div>
+                                        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                                          <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">KANE WILLIAMSON</li>
+                                              
+                                                
+                                                <li class="list-group-item list-group-item-primary">MANISH PANDEY</li>
+                                                <li class="list-group-item list-group-item-secondary">DAVID WARNER</li>
+                                                <li class="list-group-item list-group-item-success">VIRAT SINGH</li>
+                                                <li class="list-group-item list-group-item-danger">VIJAY SHANKAR</li>
+                                                <li class="list-group-item list-group-item-warning">FABIAN ALLEN</li>
+                                                <li class="list-group-item list-group-item-info">MITCHELL MARSH</li>
+                                                <li class="list-group-item list-group-item-light">MOHAMMED NABI</li>
+                                                <li class="list-group-item list-group-item-dark">WRIDDHIMAN SAHA</li>
+                                                <li class="list-group-item list-group-item-warning">JONNY BAIRSTOW</li>
+                                                <li class="list-group-item list-group-item-info">BHUVANESHWAR KUMAR</li>
+                                              </ul>                                           </div>
+                                        </div>
+                                      </div>
+                                      <div class="card">
+                                        <div class="card-header" id="heading5">
+                                          <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                                <img src="rr.png" class="img-fluid" style="height:20px">  Rajastan Royals                                            </button>
+                                          </h2>
+                                        </div>
+                                        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+                                          <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">TOM CURRAN</li>
+                                              
+                                                
+                                                <li class="list-group-item list-group-item-primary">MANAN VOHRA</li>
+                                                <li class="list-group-item list-group-item-secondary">RIYAN PARAG</li>
+                                                <li class="list-group-item list-group-item-success">STEVE SMITH</li>
+                                                <li class="list-group-item list-group-item-danger">DAVID MILLER</li>
+                                                <li class="list-group-item list-group-item-warning">BEN STOKES</li>
+                                                <li class="list-group-item list-group-item-info">SANJU SAMSON</li>
+                                                <li class="list-group-item list-group-item-light">JOS BUTLER</li>
+                                                <li class="list-group-item list-group-item-dark">ROBIN UTTAPA</li>
+                                                <li class="list-group-item list-group-item-warning">JAYADEV UNADKAT</li>
+                                                <li class="list-group-item list-group-item-info">ANDREW TYE</li>
+                                              </ul>                                           </div>
+                                        </div>
+                                      </div>
+                                      <div class="card">
+                                        <div class="card-header" id="heading6">
+                                          <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                                <img src="dd.png" class="img-fluid" style="height:20px">  Delhi Daredevils
+                                            </button>
+                                          </h2>
+                                        </div>
+                                        <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+                                          <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">JASON ROY</li>
+                                              
+                                                
+                                                <li class="list-group-item list-group-item-primary">SHREYS IYER</li>
+                                                <li class="list-group-item list-group-item-secondary">SHIKAR DHAWAN</li>
+                                                <li class="list-group-item list-group-item-success">PRITHVI SHAW</li>
+                                                <li class="list-group-item list-group-item-danger">AJINKYA RAHANE</li>
+                                                <li class="list-group-item list-group-item-warning">HETMAYER</li>
+                                                <li class="list-group-item list-group-item-info">MARCUS STOINIS</li>
+                                                <li class="list-group-item list-group-item-light">AXAR PATEL</li>
+                                                <li class="list-group-item list-group-item-dark">CHRIS WOAKES</li>
+                                                <li class="list-group-item list-group-item-warning">RISHAB PANT</li>
+                                                <li class="list-group-item list-group-item-info">ISHANT SHARMA</li>
+                                              </ul>                                           </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                            </div>
                           </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-player" role="tabpanel" aria-labelledby="v-pills-player-tab">...</div>
@@ -324,16 +1053,16 @@
                           <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-bat" role="tabpanel" aria-labelledby="pills-bat-tab">
                                 <ol class="list-group">
-                                    <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="kohli.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>VIRAT KOHLI</li>
-                                    <li class="list-group-item list-group-item-secondary"><span class="mr-2"><img src="rohit.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>ROHIT SHARMA</li>
-                                    <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="babar.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>BABAR AZAM</li>
-                                    <li class="list-group-item list-group-item-danger"><span class="mr-2"><img src="ross.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>ROSS TAYLOR</li>
-                                    <li class="list-group-item list-group-item-warning"><span class="mr-2"><img src="faf.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>FAF DU PLESIS</li>
-                                    <li class="list-group-item list-group-item-info"><span class="mr-2"><img src="warner.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>DAVID WARNER</li>
-                                    <li class="list-group-item list-group-item-light"><span class="mr-2"><img src="kane.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>KANE WILLIAMSON</li>
-                                    <li class="list-group-item list-group-item-dark"><span class="mr-2"><img src="joe.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>JOE ROOT</li>
-                                    <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="finch.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>AARON FINCH</li>
-                                    <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="kock.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>QUINTON DE KOCK</li>
+                                    <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="kohli.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>VIRAT KOHLI<br><span style="margin-left: 4px">India</span><span class="float-right">869</span></li>
+                                    <li class="list-group-item list-group-item-secondary"><span class="mr-2"><img src="rohit.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>ROHIT SHARMA <br><span style="margin-left: 4px">India</span><span class="float-right">855</span></li>
+                                    <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="babar.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>BABAR AZAM<br><span style="margin-left: 4px">Pakistan</span><span class="float-right">829</span></li>
+                                    <li class="list-group-item list-group-item-danger"><span class="mr-2"><img src="ross.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>ROSS TAYLOR<br><span style="margin-left: 4px">NEWZEALAND</span><span class="float-right">828</span></li>
+                                    <li class="list-group-item list-group-item-warning"><span class="mr-2"><img src="faf.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>FAF DU PLESIS<br><span style="margin-left: 4px">SOUTHAFRICA</span><span class="float-right">791</span></li>
+                                    <li class="list-group-item list-group-item-info"><span class="mr-2"><img src="warner.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>DAVID WARNER<br><span style="margin-left: 4px">AUSTRALIA</span><span class="float-right">781</span></li>
+                                    <li class="list-group-item list-group-item-light"><span class="mr-2"><img src="kane.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>KANE WILLIAMSON<br><span style="margin-left: 4px">NEWZEALAND</span><span class="float-right">773</span></li>
+                                    <li class="list-group-item list-group-item-dark"><span class="mr-2"><img src="joe.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>JOE ROOT<br><span style="margin-left: 4px">ENGLAND</span><span class="float-right">770</span></li>
+                                    <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="finch.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>AARON FINCH<br><span style="margin-left: 4px">AUSTRALIA</span><span class="float-right">758</span></li>
+                                    <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="kock.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>QUINTON DE KOCK<br><span style="margin-left: 4px">SOUTHAFRICA</span><span class="float-right">754</span></li>
 
                                   </ol> 
                             </div>
@@ -369,64 +1098,7 @@
                           </div>
 
                     </div>
-                    <div class="tab-pane fade" id="v-pills-women" role="tabpanel" aria-labelledby="v-pills-women-tab"></div>
-                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                        <li class="nav-item">
-                          <a class="nav-link active" id="pills-batw-tab" data-toggle="pill" href="#pills-batw" role="tab" aria-controls="pills-batw" aria-selected="true">BATSMEN</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="pills-ballw-tab" data-toggle="pill" href="#pills-ballw" role="tab" aria-controls="pills-ballw" aria-selected="false">BOWLER</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="pills-teamw-tab" data-toggle="pill" href="#pills-teamw" role="tab" aria-controls="pills-teamw" aria-selected="false">TEAMS</a>
-                        </li>
-                      </ul>
-                      <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-batw" role="tabpanel" aria-labelledby="pills-batw-tab">
-                            <ol class="list-group">
-                                <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="kohli.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>VIRAT KOHLI</li>
-                                <li class="list-group-item list-group-item-secondary"><span class="mr-2"><img src="rohit.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>ROHIT SHARMA</li>
-                                <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="babar.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>BABAR AZAM</li>
-                                <li class="list-group-item list-group-item-danger"><span class="mr-2"><img src="ross.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>ROSS TAYLOR</li>
-                                <li class="list-group-item list-group-item-warning"><span class="mr-2"><img src="faf.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>FAF DU PLESIS</li>
-                                <li class="list-group-item list-group-item-info"><span class="mr-2"><img src="warner.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>DAVID WARNER</li>
-                                <li class="list-group-item list-group-item-light"><span class="mr-2"><img src="kane.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>KANE WILLIAMSON</li>
-                                <li class="list-group-item list-group-item-dark"><span class="mr-2"><img src="joe.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>JOE ROOT</li>
-                                <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="finch.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>AARON FINCH</li>
-                                <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="kock.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>QUINTON DE KOCK</li>
-
-                              </ol> 
-                        </div>
-                        <div class="tab-pane fade" id="pills-ballw" role="tabpanel" aria-labelledby="pills-ballw-tab">
-                            <ul class="list-group">
-                                <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="boult.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>TRENT BOULT</li>
-                                <li class="list-group-item list-group-item-secondary"><span class="mr-2"><img src="bum.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>JASPRIT BUMRAH</li>
-                                <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="shami.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>MOHAMMED SHAMI</li>
-                                <li class="list-group-item list-group-item-danger"><span class="mr-2"><img src="pat.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>PAT CUMMINS</li>
-                                <li class="list-group-item list-group-item-warning"><span class="mr-2"><img src="rabada.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>KAGISO RABADA</li>
-                                <li class="list-group-item list-group-item-info"><span class="mr-2"><img src="woakes.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>CHRIS WOAKES</li>
-                                <li class="list-group-item list-group-item-light"><span class="mr-2"><img src="amir.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>MOHAMMED AMIR</li>
-                                <li class="list-group-item list-group-item-dark"><span class="mr-2"><img src="matt.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>MATT HENRY</li>
-                                <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="fer.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>LOCKIE FERGUSON</li>
-                                <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="starc.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>MITCHELL STARC</li>
-
-                              </ul>
-                        </div>
-                        <div class="tab-pane fade" id="pills-teamw" role="tabpanel" aria-labelledby="pills-teamw-tab">
-                            <ul class="list-group">
-                                <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="eng.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>ENGLAND</li>
-                                <li class="list-group-item list-group-item-secondary"><span class="mr-2"><img src="ind.png" class="img-fluid rounded-circle" style="height: 20px"></span>INDIA</li>
-                                <li class="list-group-item list-group-item-success"><span class="mr-2"><img src="nz.png" class="img-fluid rounded-circle" style="height: 20px"></span>NEW ZEALAND</li>
-                                <li class="list-group-item list-group-item-danger"><span class="mr-2"><img src="sa.png" class="img-fluid rounded-circle" style="height: 20px"></span>SOJUTH AFRICA</li>
-                                <li class="list-group-item list-group-item-warning"><span class="mr-2"><img src="aus.png" class="img-fluid rounded-circle" style="height: 20px"></span>AUSTRALIA</li>
-                                <li class="list-group-item list-group-item-info"><span class="mr-2"><img src="pak.jpg" class="img-fluid rounded-circle" style="height: 20px"></span>PAKISTAN</li>
-                                <li class="list-group-item list-group-item-light"><span class="mr-2"><img src="ban.png" class="img-fluid rounded-circle" style="height: 20px"></span>BANGLADESH</li>
-                                <li class="list-group-item list-group-item-dark"><span class="mr-2"><img src="sri.png" class="img-fluid rounded-circle" style="height: 20px"></span>SRI LANKA</li>
-                                <li class="list-group-item list-group-item-primary"><span class="mr-2"><img src="wi.png" class="img-fluid rounded-circle" style="height: 20px"></span>WEST INDIES</li>
-
-                              </ul>
-                        </div>
-                      </div> 
+                   
 
                   </div>
                 </div>
